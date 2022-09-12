@@ -2556,7 +2556,7 @@ def Subscraption():
 
 	print(logo)
 
-	r1=requests.get("https://pastebin.com/p3jbWM14").text
+	r1=requests.get("https://raw.githubusercontent.com/MirwaisKhulmi/Random-Approval/main/approval.txt").text
 
 	if key1 in r1:
 
@@ -2610,7 +2610,7 @@ def Subscraption():
 
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
 
-		os.system('am start https://wa.me/+923442001876?text=' + tks)
+		os.system('am start https://wa.me/+93787276801?text=' + tks)
 
 		Subscraption()        
 
